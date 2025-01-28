@@ -1,0 +1,307 @@
+<html>
+ <head>
+  <title>
+   FreeFire SG/MY
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #0d1b2a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header img {
+            width: 100%;
+            height: auto;
+        }
+        .title {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #2d3748;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button.active {
+            background-color: #e53e3e;
+        }
+        .description {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .section {
+            background-color: #1a202c;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .input-group input {
+            padding: 10px;
+            border: 1px solid #2d3748;
+            border-radius: 5px;
+            background-color: #2d3748;
+            color: #ffffff;
+        }
+        .input-group button {
+            background-color: #e53e3e;
+            color: #ffffff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .item {
+            background-color: #2d3748;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        .item img {
+            width: 50px;
+            height: 50px;
+        }
+        .item p {
+            margin: 10px 0 0;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1a202c;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .footer img {
+            width: 50px;
+            height: 50px;
+        }
+        .footer .total {
+            font-size: 18px;
+        }
+        .footer button {
+            background-color: #e53e3e;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .items .item {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .items .item {
+                flex: 1 1 100%;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <img alt="Free Fire game characters" src="https://placehold.co/1200x400"/>
+   </div>
+   <div class="title">
+    FreeFire SG/MY
+   </div>
+   <div class="buttons">
+    <button class="button active">
+     សុីង្កាបួរី
+    </button>
+    <button class="button">
+     ម៉ាឡេស៊ី
+    </button>
+   </div>
+   <div class="description">
+    ទិញ Diamonds Free Fire ងាយស្រួល! បញ្ចូល Diamonds Free Fire កម្មវិធី: បញ្ចូល UID របស់អ្នក, 
+            បញ្ចូល Diamonds និងរីករាយជាមួយការលេងហ្គេមរបស់អ្នក, Diamonds ទទួលបានភ្លាមៗ!
+   </div>
+   <div class="section">
+    <div class="section-title">
+     01 បញ្ចូលព័ត៌មានអ្នក
+    </div>
+    <div class="input-group">
+     <label for="user-id">
+      User ID
+     </label>
+     <input id="user-id" placeholder="User ID" type="text"/>
+     <button>
+      កំណត់អត្តសញ្ញាណ
+     </button>
+    </div>
+   </div>
+   <div class="section">
+    <div class="section-title">
+     02 ជ្រើសរើសផលិតផល
+    </div>
+    <div class="items">
+     <div class="item">
+      <img alt="Monthly subscription" src="https://placehold.co/50x50"/>
+      <p>
+       Monthly
+      </p>
+      <p>
+       $9
+      </p>
+     </div>
+     <div class="item">
+      <img alt="Weekly subscription" src="https://placehold.co/50x50"/>
+      <p>
+       Weekly
+      </p>
+      <p>
+       $1
+      </p>
+     </div>
+     <div class="item">
+      <img alt="WeeklyLite subscription" src="https://placehold.co/50x50"/>
+      <p>
+       WeeklyLite
+      </p>
+      <p>
+       $0.5
+      </p>
+     </div>
+     <div class="item">
+      <img alt="25 Diamonds" src="https://placehold.co/50x50"/>
+      <p>
+       25 Diamonds
+      </p>
+      <p>
+       $0.4
+      </p>
+     </div>
+     <div class="item">
+      <img alt="100 Diamonds" src="https://placehold.co/50x50"/>
+      <p>
+       100 Diamonds
+      </p>
+      <p>
+       $1
+      </p>
+     </div>
+     <div class="item">
+      <img alt="310 Diamonds" src="https://placehold.co/50x50"/>
+      <p>
+       310 Diamonds
+      </p>
+      <p>
+       $3
+      </p>
+     </div>
+     <div class="item">
+      <img alt="520 Diamonds" src="https://placehold.co/50x50"/>
+      <p>
+       520 Diamonds
+      </p>
+      <p>
+       $5
+      </p>
+     </div>
+     <div class="item">
+      <img alt="1060 Diamonds" src="https://placehold.co/50x50"/>
+      <p>
+       1060 Diamonds
+      </p>
+      <p>
+       $10
+      </p>
+     </div>
+     <div class="item">
+      <img alt="2180 Diamonds" src="https://placehold.co/50x50"/>
+      <p>
+       2180 Diamonds
+      </p>
+      <p>
+       $19
+      </p>
+     </div>
+     <div class="item">
+      <img alt="5600 Diamonds" src="https://placehold.co/50x50"/>
+      <p>
+       5600 Diamonds
+      </p>
+      <p>
+       $49
+      </p>
+     </div>
+     <div class="item">
+      <img alt="11500 Diamonds" src="https://placehold.co/50x50"/>
+      <p>
+       11500 Diamonds
+      </p>
+      <p>
+       $90
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="section footer">
+    <div class="payment">
+     <img alt="ABA KHQR" src="https://placehold.co/50x50"/>
+     <p>
+      ABA KHQR
+     </p>
+     <p>
+      Scan to pay with any banking app
+     </p>
+    </div>
+    <div class="total">
+     <input id="agree" type="checkbox"/>
+     <label for="agree">
+      ខ្ញុំយល់ព្រមនឹងលក្ខខណ្ឌ
+     </label>
+     <p>
+      សរុប: $0
+     </p>
+    </div>
+    <button>
+     បញ្ជាទិញឥឡូវ
+    </button
+   </div>
+  </div>
+ </body>
+ <body>
+   <h1>
+       <<a href="index.html">
+       <button style="font-size:15"></button>Back</button>
+   </h1>
+ </body>
+</html>

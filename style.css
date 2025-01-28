@@ -1,0 +1,79 @@
+ 
+   body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .banner {
+            width: 90%;
+            max-width: 600px;
+            margin: 20px 0;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid #000;
+        }
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+        .content {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .content h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .game-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 90%;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        .game-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .game-card h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .game-card button {
+            background-color: #e0e0e0;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .message-us {
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            width: 90%;
+            max-width: 300px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .message-us h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .message-us .icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .message-us .icons a {
+            font-size: 24px;
+            color: #000;
+        }
+ 
